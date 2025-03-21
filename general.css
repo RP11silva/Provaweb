@@ -1,0 +1,52 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, 
+    #FFCC00 0%, 
+    #006400 50%, 
+    #0033A0 100%)
+}
+
+img { width: 60px;
+
+}
+
+header
+{ display: flex;
+    align-items: center;
+    gap: 450px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header nav {
+display: flex;
+gap: 50px;
+
+}
+
+header nav a{
+text-decoration: none;
+color: #fff;
+}
+
+h1{
+color: #fff;
+text-align: center;
+
+}
+
+.play{
+padding: 20px;
+margin: 20px;
+background-color: #fff;
+border-radius: 8px;
+}
+
+.play p{
+    font-size: 20px;
+}
