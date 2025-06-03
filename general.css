@@ -14,25 +14,33 @@ img { width: 60px;
 
 }
 
-header
-{ display: flex;
-    align-items: center;
-    gap: 450px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px; 
+  padding: 0 20px;
+}
 
+header img {
+  width: 60px;
 }
 
 header nav {
-display: flex;
-gap: 50px;
-
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 50px;
 }
 
-header nav a{
-text-decoration: none;
-color: #fff;
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 h1{
 color: #fff;
